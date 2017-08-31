@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+    <title>Image Search Abstraction Layer Microservice for FreeCodeCamp</title>
+  </head>
+  <body>
+      <div class="navbar navbar-default">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Image Search Abstraction Layer</a>
+        </div>
+    </div>
+    <div class="container">
+      <h4><a href="http://www.freecodecamp.com" target="_blank">Free Code Camp: APIs and Microservices</a></h4>
+      <p>
+          <h3>Example creation usage:</h3>
+          <code> https://cryptic-ridge-9197.herokuapp.com/api/imagesearch/lolcats%20funny?offset=10</code><br>
+          <h3>Example creation output</h3>
+          <code>
+            {
+              "url": "http://blog4free.com/wp-content/uploads/2017/05/funny-cats-pictures-when-it-went-nobody-knows-but-its-gone.jpg",
+              "snippet": "Funny Cats Pictures Lolcats: I let my mind wander. – Blog4Free.com",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-RtX7YyCOpFQyrkTPbvJBeBIHjS1S8KjfCPstVcIiotW9GoAEJ0GnAPQ",
+              "context": "http://blog4free.com/images/funny-cats-pictures-lolcats-i-let-my-mind-wander/"
+            }
+          </code>
+          <h3> History:</h3>
+          <code> https://cryptic-ridge-9197.herokuapp.com/api/latest/imagesearch/</code>
+          <h3> History Output:</h3>
+          <code>{
+                  "term": "lolcats funny",
+                  "when": "2017-08-29T18:09:21.718Z"
+                }
+          </code>
+      </p>
+    </div>
+  </body>
+</html>
